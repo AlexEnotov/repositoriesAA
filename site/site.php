@@ -24,18 +24,14 @@
     </tr>
     </thead>
   <tbody>
+    <?php for($i=0; $i<10; $i++) {?>
   	<tr>
-  		<th>1</th>
+  		<th><?= $i ?></th>
   		<th><b><a style="color: RGB(122, 39, 106);" href="#">Siverin</a></b></th>
   		<th>Igor</th>
   		<th>man</th>
   	</tr>
-  	<tr>
-  		<td>2</td>
-  		<td>Enotov</td>
-  		<td>ALEXANDER</td>
-  		<td>man</td>
-  	</tr>
+  <?php } ?>
   </tbody>
   </table>
 </div>
