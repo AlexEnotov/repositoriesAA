@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <?php $colors = 'color:white';
+  $colorshr = 'white' ?>
   <?php require_once 'menu/menu.php' ?>
   <div class="container mt-3">
     <div style="">
@@ -115,25 +117,25 @@
             </div>
             <div>
               <br><br>
-              <h4><b>ПОСЛЕДНИЕ ЗАПИСИ</b></h4>
-                <hr>
-                <a href="" style="color:black; font-size: 18px;">The Living Legacy is Coming Next Week</a>
-                <p>7 ИЮЛЯ 2023 Г., 20:18 | LOCALHOST</p>
+              <h4 style="<?= $colors ?>"><b>ПОСЛЕДНИЕ ЗАПИСИ</b></h4>
+                <hr style="<?= $colors ?>">
+                <a href="#" style="<?= $colors ?>; font-size: 18px;">The Living Legacy is Coming Next Week</a>
+                <p style="<?= $colors ?>">7 ИЮЛЯ 2023 Г., 20:18 | LOCALHOST</p>
                 
-                <a href="" style="color:black; font-size: 18px;">Черный рынок</a>
-                <p>7 ИЮЛЯ 2023 Г., 20:10 | FANTAMAS23</p>
+                <a href="" style="<?= $colors ?>; font-size: 18px;">Черный рынок</a>
+                <p style="<?= $colors ?>">7 ИЮЛЯ 2023 Г., 20:10 | FANTAMAS23</p>
             </div>   
             <div>
               <br><br>
-              <h4><b>ПОСЛЕДНИЕ ВИДЕО</b></h4>
-                <hr>
-                <a href="" style="color:black; font-size: 18px;">
+              <h4 style="<?= $colors ?>"><b>ПОСЛЕДНИЕ ВИДЕО</b></h4>
+                <hr style="<?= $colors ?>">
+                <a href="" style="<?= $colors ?>; font-size: 18px;">
 <iframe width="308" height="200" src="https://www.youtube.com/embed/twYXC0ydMgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </a>
-                <a href="" style="color:black; font-size: 18px;">Дневник разработчиков: посохи оборотня</a>
+                <a href="" style="<?= $colors ?>; font-size: 18px;">Дневник разработчиков: посохи оборотня</a>
                 
-                <a href="" style="color:black; font-size: 18px;">Черный рынок</a>
-                <p>6 ИЮЛЯ 2023 Г., 11:19</p>
+                <a href="" style="<?= $colors ?>; font-size: 18px;">Черный рынок</a>
+                <p style="<?= $colors ?>">6 ИЮЛЯ 2023 Г., 11:19</p>
             </div>                
               
                  

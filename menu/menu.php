@@ -53,15 +53,15 @@
     <a class="nav-link active" id="item0"   aria-current="page" href="../index.php" ><img src="../img/logo.svg" alt="HTML tutorial" style="width:56px; height:30px; "></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" id="item1"  aria-current="page" href="../index.php">Главная</a>
+    <a class="nav-link active" id="item1"  aria-current="page" href="../index.php"><b>Главная</b></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" id="item2"  href="../site/site.php">Сообщество</a>
+    <a class="nav-link" id="item2"  href="../site/site.php"><b>Сообщество</b></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link"  id="item3"  href="../site/site2.php">О гильдии</a>
+    <a class="nav-link"  id="item3"  href="../site/site2.php"><b>О гильдии</b></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" id="item4" href="#">Контакты</a>
+    <a class="nav-link" id="item4" href="#"><b>Контакты</b></a>
   </li>
 </ul>
